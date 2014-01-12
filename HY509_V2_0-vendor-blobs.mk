@@ -43,4 +43,41 @@ PRODUCT_COPY_FILES += \
     vendor/faea/HY509_V2_0/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
-    vendor/faea/HY509_V2_0/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl
+    vendor/faea/HY509_V2_0/proprietary/lib/libdpframework_os.so:system/lib/libdpframework_os.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libdpframework_plat.so:system/lib/libdpframework_plat.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libnvram.so:system/lib/libnvram.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libhwm.so:system/lib/libhwm.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
+    vendor/faea/HY509_V2_0/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
+    vendor/faea/HY509_V2_0/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
+    vendor/faea/HY509_V2_0/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
+    vendor/faea/HY509_V2_0/proprietary/bin/rild:system/bin/rild \
+    vendor/faea/HY509_V2_0/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
+    vendor/faea/HY509_V2_0/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
+    vendor/faea/HY509_V2_0/proprietary/bin/hald:system/bin/hald \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/WIFI_RAM_CODE_E6:system/etc/firmware/WIFI_RAM_CODE_E6 \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/S_ANDRO_SFL.ini:system/etc/firmware/S_ANDRO_SFL.ini \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628_patch_e2_0_hdr.bin:system/etc/firmware/mt6628_patch_e2_0_hdr.bin \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628_patch_e1_hdr.bin:system/etc/firmware/mt6628_patch_e1_hdr.bin \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/modem.img:system/etc/firmware/modem.img \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628/mt6628_fm_v4_coeff.bin:system/etc/firmware/mt6628/mt6628_fm_v4_coeff.bin \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628/mt6628_fm_v2_patch.bin:system/etc/firmware/mt6628/mt6628_fm_v2_patch.bin \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628/mt6628_fm_v2_coeff.bin:system/etc/firmware/mt6628/mt6628_fm_v2_coeff.bin \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628/mt6628_fm_v5_coeff.bin:system/etc/firmware/mt6628/mt6628_fm_v5_coeff.bin \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628/mt6628_fm_rom.bin:system/etc/firmware/mt6628/mt6628_fm_rom.bin \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628/mt6628_fm_v3_coeff.bin:system/etc/firmware/mt6628/mt6628_fm_v3_coeff.bin \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628/mt6628_fm_v3_patch.bin:system/etc/firmware/mt6628/mt6628_fm_v3_patch.bin \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628/mt6628_fm_v1_patch.bin:system/etc/firmware/mt6628/mt6628_fm_v1_patch.bin \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628/mt6628_fm_v1_coeff.bin:system/etc/firmware/mt6628/mt6628_fm_v1_coeff.bin \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628/mt6628_fm_v4_patch.bin:system/etc/firmware/mt6628/mt6628_fm_v4_patch.bin \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628/mt6628_fm_v5_patch.bin:system/etc/firmware/mt6628/mt6628_fm_v5_patch.bin \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/WIFI_RAM_CODE_MT6628:system/etc/firmware/WIFI_RAM_CODE_MT6628 \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628_ant_m1.cfg:system/etc/firmware/mt6628_ant_m1.cfg \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/catcher_filter.bin:system/etc/firmware/catcher_filter.bin \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/WIFI_RAM_CODE:system/etc/firmware/WIFI_RAM_CODE \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628_patch_e2_1_hdr.bin:system/etc/firmware/mt6628_patch_e2_1_hdr.bin \
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/WMT.cfg:system/etc/firmware/WMT.cfg
