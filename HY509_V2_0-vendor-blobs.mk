@@ -59,6 +59,8 @@ PRODUCT_COPY_FILES += \
     vendor/faea/HY509_V2_0/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/faea/HY509_V2_0/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/faea/HY509_V2_0/proprietary/bin/hald:system/bin/hald \
+    vendor/faea/HY509_V2_0/proprietary/bin/wlan_loader:system/bin/wlan_loader \
+    vendor/faea/HY509_V2_0/proprietary/bin/6620_launcher:system/bin/6620_launcher \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/WIFI_RAM_CODE_E6:system/etc/firmware/WIFI_RAM_CODE_E6 \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/S_ANDRO_SFL.ini:system/etc/firmware/S_ANDRO_SFL.ini \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628_patch_e2_0_hdr.bin:system/etc/firmware/mt6628_patch_e2_0_hdr.bin \
