@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/faea/HY509_V2_0/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/faea/HY509_V2_0/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
     vendor/faea/HY509_V2_0/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libwapi.so:system/lib/libwapi.so \
     vendor/faea/HY509_V2_0/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
     vendor/faea/HY509_V2_0/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
     vendor/faea/HY509_V2_0/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
