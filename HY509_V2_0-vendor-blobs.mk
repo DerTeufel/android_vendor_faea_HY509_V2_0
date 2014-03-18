@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/faea/HY509_V2_0/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
     vendor/faea/HY509_V2_0/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
     vendor/faea/HY509_V2_0/proprietary/bin/rild:system/bin/rild \
-    vendor/faea/HY509_V2_0/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/faea/HY509_V2_0/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/faea/HY509_V2_0/proprietary/bin/hald:system/bin/hald \
     vendor/faea/HY509_V2_0/proprietary/bin/wlan_loader:system/bin/wlan_loader \
