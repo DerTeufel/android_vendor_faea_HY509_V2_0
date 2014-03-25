@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/faea/HY509_V2_0/proprietary/vendor/lib/egl/libGLESv1_CM_mtk.so:system/vendor/lib/egl/libGLESv1_CM_mtk.so \
     vendor/faea/HY509_V2_0/proprietary/vendor/lib/egl/libGLESv2_mtk.so:system/vendor/lib/egl/libGLESv2_mtk.so \
     vendor/faea/HY509_V2_0/proprietary/vendor/lib/hw/gralloc.mt6589.so:system/vendor/lib/hw/gralloc.mt6589.so \
-    vendor/faea/HY509_V2_0/proprietary/lib/hw/hwcomposer.mt6589.so:system/lib/hw/hwcomposer.mt6589.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
@@ -83,3 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/WIFI_RAM_CODE:system/etc/firmware/WIFI_RAM_CODE \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628_patch_e2_1_hdr.bin:system/etc/firmware/mt6628_patch_e2_1_hdr.bin \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/WMT.cfg:system/etc/firmware/WMT.cfg
+PRODUCT_COPY_FILES += \
+ vendor/faea/HY509_V2_0/proprietary/lib/libaudio.primary.default.so:system/lib/hw/audio.primary.mt6589.so$LINEEND
+ vendor/faea/HY509_V2_0/proprietary/lib/hw/audio_policy.mt6589.so:system/lib/hw/audio_policy.mt6589.so
