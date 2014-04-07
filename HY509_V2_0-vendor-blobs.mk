@@ -39,6 +39,15 @@ PRODUCT_COPY_FILES += \
     vendor/faea/HY509_V2_0/proprietary/vendor/lib/egl/libGLESv1_CM_mtk.so:system/vendor/lib/egl/libGLESv1_CM_mtk.so \
     vendor/faea/HY509_V2_0/proprietary/vendor/lib/egl/libGLESv2_mtk.so:system/vendor/lib/egl/libGLESv2_mtk.so \
     vendor/faea/HY509_V2_0/proprietary/vendor/lib/hw/gralloc.mt6589.so:system/vendor/lib/hw/gralloc.mt6589.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libaed.so:system/lib/libaed.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libbessound_mtk.so:system/lib/libbessound_mtk.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libmedia.so:system/lib/libmedia.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
@@ -57,9 +66,12 @@ PRODUCT_COPY_FILES += \
     vendor/faea/HY509_V2_0/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
     vendor/faea/HY509_V2_0/proprietary/bin/rild:system/bin/rild \
     vendor/faea/HY509_V2_0/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
+    vendor/faea/HY509_V2_0/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
     vendor/faea/HY509_V2_0/proprietary/bin/hald:system/bin/hald \
     vendor/faea/HY509_V2_0/proprietary/bin/wlan_loader:system/bin/wlan_loader \
     vendor/faea/HY509_V2_0/proprietary/bin/6620_launcher:system/bin/6620_launcher \
+    vendor/faea/HY509_V2_0/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
+    vendor/faea/HY509_V2_0/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/WIFI_RAM_CODE_E6:system/etc/firmware/WIFI_RAM_CODE_E6 \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/S_ANDRO_SFL.ini:system/etc/firmware/S_ANDRO_SFL.ini \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628_patch_e2_0_hdr.bin:system/etc/firmware/mt6628_patch_e2_0_hdr.bin \
