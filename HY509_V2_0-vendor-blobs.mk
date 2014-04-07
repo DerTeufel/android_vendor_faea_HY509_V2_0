@@ -95,5 +95,5 @@ PRODUCT_COPY_FILES += \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628_patch_e2_1_hdr.bin:system/etc/firmware/mt6628_patch_e2_1_hdr.bin \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/WMT.cfg:system/etc/firmware/WMT.cfg
 PRODUCT_COPY_FILES += \
- vendor/faea/HY509_V2_0/proprietary/lib/libaudio.primary.default.so:system/lib/hw/audio.primary.mt6589.so$LINEEND
- vendor/faea/HY509_V2_0/proprietary/lib/hw/audio_policy.mt6589.so:system/lib/hw/audio_policy.mt6589.so
+  vendor/faea/HY509_V2_0/proprietary/lib/hw/audio.primary.mt6589.so:system/lib/hw/audio.primary.mt6589.so \
+  vendor/faea/HY509_V2_0/proprietary/lib/hw/audio_policy.mt6589.so:system/lib/hw/audio_policy.mt6589.so
