@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/faea/HY509_V2_0/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libbessound_mtk.so:system/lib/libbessound_mtk.so \
-    vendor/faea/HY509_V2_0/proprietary/lib/libmedia.so:system/lib/libmedia.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
@@ -64,6 +63,8 @@ PRODUCT_COPY_FILES += \
     vendor/faea/HY509_V2_0/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
     vendor/faea/HY509_V2_0/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
     vendor/faea/HY509_V2_0/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
+    vendor/faea/HY509_V2_0/proprietary/bin/muxreport:system/bin/muxreport \
+    vendor/faea/HY509_V2_0/proprietary/bin/permission_check:system/bin/permission_check \
     vendor/faea/HY509_V2_0/proprietary/bin/rild:system/bin/rild \
     vendor/faea/HY509_V2_0/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/faea/HY509_V2_0/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
