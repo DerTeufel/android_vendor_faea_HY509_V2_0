@@ -97,4 +97,5 @@ PRODUCT_COPY_FILES += \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/WMT.cfg:system/etc/firmware/WMT.cfg
 PRODUCT_COPY_FILES += \
   vendor/faea/HY509_V2_0/proprietary/lib/hw/audio.primary.mt6589.so:system/lib/hw/audio.primary.mt6589.so \
-  vendor/faea/HY509_V2_0/proprietary/lib/hw/audio_policy.mt6589.so:system/lib/hw/audio_policy.mt6589.so
+  vendor/faea/HY509_V2_0/proprietary/lib/hw/audio_policy.mt6589.so:system/lib/hw/audio_policy.mt6589.so \
+  vendor/faea/HY509_V2_0/proprietary/lib/hw/hwcomposer.mt6589.so:system/lib/hw/hwcomposer.mt6589.so
