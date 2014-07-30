@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/faea/HY509_V2_0/proprietary/vendor/lib/egl/libGLESv1_CM_mtk.so:system/vendor/lib/egl/libGLESv1_CM_mtk.so \
     vendor/faea/HY509_V2_0/proprietary/vendor/lib/egl/libGLESv2_mtk.so:system/vendor/lib/egl/libGLESv2_mtk.so \
     vendor/faea/HY509_V2_0/proprietary/vendor/lib/hw/gralloc.mt6589.so:system/vendor/lib/hw/gralloc.mt6589.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/hw/hwcomposer.mt6589.so:system/lib/hw/hwcomposer.mt6589.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libaed.so:system/lib/libaed.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
@@ -63,12 +64,12 @@ PRODUCT_COPY_FILES += \
     vendor/faea/HY509_V2_0/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
     vendor/faea/HY509_V2_0/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
     vendor/faea/HY509_V2_0/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
-    vendor/faea/HY509_V2_0/proprietary/bin/muxreport:system/bin/muxreport \
     vendor/faea/HY509_V2_0/proprietary/bin/permission_check:system/bin/permission_check \
     vendor/faea/HY509_V2_0/proprietary/bin/rild:system/bin/rild \
     vendor/faea/HY509_V2_0/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/faea/HY509_V2_0/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
     vendor/faea/HY509_V2_0/proprietary/bin/hald:system/bin/hald \
+    vendor/faea/HY509_V2_0/proprietary/bin/muxreport:system/bin/muxreport \
     vendor/faea/HY509_V2_0/proprietary/bin/wlan_loader:system/bin/wlan_loader \
     vendor/faea/HY509_V2_0/proprietary/bin/6620_launcher:system/bin/6620_launcher \
     vendor/faea/HY509_V2_0/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
@@ -94,8 +95,25 @@ PRODUCT_COPY_FILES += \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/catcher_filter.bin:system/etc/firmware/catcher_filter.bin \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/WIFI_RAM_CODE:system/etc/firmware/WIFI_RAM_CODE \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628_patch_e2_1_hdr.bin:system/etc/firmware/mt6628_patch_e2_1_hdr.bin \
-    vendor/faea/HY509_V2_0/proprietary/etc/firmware/WMT.cfg:system/etc/firmware/WMT.cfg
+    vendor/faea/HY509_V2_0/proprietary/etc/firmware/WMT.cfg:system/etc/firmware/WMT.cfg \
+    vendor/faea/HY509_V2_0/proprietary/lib/libimageio.so:system/lib/libimageio.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libbwc.so:system/lib/libbwc.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libcam.utils.so:system/lib/libcam.utils.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libcam_camera_exif.so:system/lib/libcam_camera_exif.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libcamalgo.so:system/lib/libcamalgo.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/lib3a.so:system/lib/lib3a.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libcam.client.so:system/lib/libcam.client.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libmpo.so:system/lib/libmpo.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libmpoencoder.so:system/lib/libmpoencoder.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libcam.campipe.so:system/lib/libcam.campipe.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so
 PRODUCT_COPY_FILES += \
   vendor/faea/HY509_V2_0/proprietary/lib/hw/audio.primary.mt6589.so:system/lib/hw/audio.primary.mt6589.so \
-  vendor/faea/HY509_V2_0/proprietary/lib/hw/audio_policy.mt6589.so:system/lib/hw/audio_policy.mt6589.so \
-  vendor/faea/HY509_V2_0/proprietary/lib/hw/hwcomposer.mt6589.so:system/lib/hw/hwcomposer.mt6589.so
+  vendor/faea/HY509_V2_0/proprietary/lib/hw/audio_policy.mt6589.so:system/lib/hw/audio_policy.mt6589.so
