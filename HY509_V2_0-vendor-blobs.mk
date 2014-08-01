@@ -96,6 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/WIFI_RAM_CODE:system/etc/firmware/WIFI_RAM_CODE \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628_patch_e2_1_hdr.bin:system/etc/firmware/mt6628_patch_e2_1_hdr.bin \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/WMT.cfg:system/etc/firmware/WMT.cfg \
+    vendor/faea/HY509_V2_0/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libimageio.so:system/lib/libimageio.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libbwc.so:system/lib/libbwc.so \
