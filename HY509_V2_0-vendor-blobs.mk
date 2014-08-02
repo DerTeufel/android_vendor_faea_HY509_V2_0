@@ -22,24 +22,29 @@
 #    vendor/faea/HY509_V2_0/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so
 
 PRODUCT_COPY_FILES += \
-    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libBLPP.so:system/vendor/lib/libBLPP.so \
-    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
-    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
-    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
-    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libpvr2d.so:system/vendor/lib/libpvr2d.so \
-    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
+    vendor/faea/HY509_V2_0/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
+    vendor/faea/HY509_V2_0/proprietary/vendor/bin/rc.fac:system/vendor/bin/rc.fac \
     vendor/faea/HY509_V2_0/proprietary/vendor/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
     vendor/faea/HY509_V2_0/proprietary/vendor/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
-    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libusc.so:system/vendor/lib/libusc.so \
-    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libpvr2d.so:system/vendor/lib/libpvr2d.so \
     vendor/faea/HY509_V2_0/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/faea/HY509_V2_0/proprietary/vendor/lib/egl/libEGL_mtk.so:system/vendor/lib/egl/libEGL_mtk.so \
+    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
+    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
+    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libusc.so:system/vendor/lib/libusc.so \
+    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
     vendor/faea/HY509_V2_0/proprietary/vendor/lib/egl/libGLESv1_CM_mtk.so:system/vendor/lib/egl/libGLESv1_CM_mtk.so \
+    vendor/faea/HY509_V2_0/proprietary/vendor/lib/egl/libEGL_mtk.so:system/vendor/lib/egl/libEGL_mtk.so \
     vendor/faea/HY509_V2_0/proprietary/vendor/lib/egl/libGLESv2_mtk.so:system/vendor/lib/egl/libGLESv2_mtk.so \
+    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
+    vendor/faea/HY509_V2_0/proprietary/vendor/lib/libBLPP.so:system/vendor/lib/libBLPP.so \
     vendor/faea/HY509_V2_0/proprietary/vendor/lib/hw/gralloc.mt6589.so:system/vendor/lib/hw/gralloc.mt6589.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
     vendor/faea/HY509_V2_0/proprietary/lib/hw/hwcomposer.mt6589.so:system/lib/hw/hwcomposer.mt6589.so \
+    vendor/faea/HY509_V2_0/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libaed.so:system/lib/libaed.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
@@ -61,7 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/faea/HY509_V2_0/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
     vendor/faea/HY509_V2_0/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libwapi.so:system/lib/libwapi.so \
-    vendor/faea/HY509_V2_0/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
     vendor/faea/HY509_V2_0/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
     vendor/faea/HY509_V2_0/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
     vendor/faea/HY509_V2_0/proprietary/bin/permission_check:system/bin/permission_check \
@@ -96,7 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/WIFI_RAM_CODE:system/etc/firmware/WIFI_RAM_CODE \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/mt6628_patch_e2_1_hdr.bin:system/etc/firmware/mt6628_patch_e2_1_hdr.bin \
     vendor/faea/HY509_V2_0/proprietary/etc/firmware/WMT.cfg:system/etc/firmware/WMT.cfg \
-    vendor/faea/HY509_V2_0/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libimageio.so:system/lib/libimageio.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
     vendor/faea/HY509_V2_0/proprietary/lib/libbwc.so:system/lib/libbwc.so \
